@@ -1,4 +1,4 @@
-<img width="502" alt="Screenshot 2024-08-04 at 11 25 44 PM" src="https://github.com/user-attachments/assets/3a339184-8849-4f19-a7b8-b4a7f546901c"># File Based CSFLE Setup For MongoDB Atlas
+## File Based CSFLE Setup For MongoDB Atlas
 
 ## Introduction
 
