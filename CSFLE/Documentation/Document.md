@@ -181,3 +181,6 @@ const schema = {
 6. Spesified fields according to the schema will get encrypted on the database as shwon below
 
 ![Project Logo](images/CSFLE_Database.png)
+
+
+**For now this description ends here , If you are reading it when I have not completed the second leg of this demo which querying this encrypted data , then please stay tuned I am working on it**
