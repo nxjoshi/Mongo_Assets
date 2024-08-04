@@ -50,7 +50,7 @@ Deterministic Encryption-Based (DEB) keys and Customer-Managed Keys (CMKs) in Mo
 
 This directory contains the local setup of credentials required for Client-Side Field Level Encryption. Please note that this **local setup should not be used in a production  environment**, as a file-based approach can pose significant risks.  
 
-**Generation of DEB Key in File Based Setup** 
+##**Generation of DEB Key in File Based Setup** 
 
 1. Go to Directory /CSFLE/Crypto-js.
 2. Open your terminal on Visual Studio code or outside of it.
