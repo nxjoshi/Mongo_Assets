@@ -23,10 +23,11 @@ Before you begin, ensure you have the following:
 2. **Create a Database and Collection:**
    - Navigate to your cluster.
    - Click on "Collections" and add a new database and collection.
+  
+3. **Install Dependencies:**
+   ```bash
+   npm install
 
-3. **Create a Key Vault:**
-   - You need to create a key vault for storing encryption keys.
-   - In the MongoDB Atlas UI, create a collection named `__keyVault` in a database of your choice (e.g., `encryption`).
 
 ## Step 2: Prepare Your Local Environment
 
@@ -59,6 +60,4 @@ This directory contains the local setup of credentials required for Client-Side 
 ![Project Logo](images/YourCred.jpg)
    
 
-5. **Install Dependencies:**
-   ```bash
-   npm install
+
