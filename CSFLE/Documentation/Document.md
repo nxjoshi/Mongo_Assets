@@ -173,4 +173,5 @@ const schema = {
 
 2. As soon you get the **server started on 3000** message , Open web browser.
 3. Copy pase this URL , http://localhost:3000/
-![Project Logo](images/CSFLE/Documentation/images/Screenshot 2024-08-04 at 11.37.17 PM.png)
+
+![Project Logo](images/Demo.png)
