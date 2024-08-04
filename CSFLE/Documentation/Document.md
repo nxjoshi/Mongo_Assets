@@ -167,6 +167,9 @@ const schema = {
 
 ### Runtime of Application
 
-1. Start the Server
+1. Start the Server, Please ignore the warnings if you it is showing up to you as well.
 
 ![Project Logo](images/ServerStart.png)
+
+2. As soon you get the **server started on 3000** message , Open web browser.
+3. Copy pase this URL , http://localhost:3000/
