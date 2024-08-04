@@ -1,4 +1,4 @@
-# File Based CSFLE Setup For MongoDB Atlas
+<img width="502" alt="Screenshot 2024-08-04 at 11 25 44 PM" src="https://github.com/user-attachments/assets/3a339184-8849-4f19-a7b8-b4a7f546901c"># File Based CSFLE Setup For MongoDB Atlas
 
 ## Introduction
 
@@ -63,12 +63,12 @@ This directory contains the local setup of credentials required for Client-Side 
 5. As you will get the copy of your key , Please verify that on atlas you should see new database and collection related to keyvault which looks as following.
 
 ![Project Logo](images/Atlas.png)
-
  
 
 ## Setting Up Server.js
 
-1. DEB key copied from previous section , place it in your server.js 
-   
+1. DEB key copied from previous section , place it in your server.js as below
+ 
+![Project Logo](images/DEBKey.png)
 
 
