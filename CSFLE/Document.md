@@ -33,6 +33,12 @@ Before you begin, ensure you have the following:
 1. **Clone the Repository:**
    - Clone the repository containing the Node.js application that will use CSFLE.
    - Navigate to the project directory.
+   - In this project you can observe that you have root folder as CSFLE which contains
+   -    Crypto-js , Server-node
+  
+
+## Crypto-js
+   
 
 2. **Install Dependencies:**
    ```bash
