@@ -183,4 +183,4 @@ const schema = {
 ![Project Logo](images/CSFLE_Database.png)
 
 
-**For now this description ends here , If you are reading it when I have not completed the second leg of this demo which querying this encrypted data , then please stay tuned I am working on it**
+**For now this description ends here , If you are reading it when I have not completed the second leg of this demo which is about querying this encrypted data , then please stay tuned I am working on it**
