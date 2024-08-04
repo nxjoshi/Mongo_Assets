@@ -38,6 +38,9 @@ Before you begin, ensure you have the following:
   
 
 ## Crypto-js
+
+![Project Logo](images/CSFLE.jpg)
+
    - This directory contains the local setup of credentials required for Client-Side Field Level Encryption. Please note that this **local setup should not be used in a production 
      environment**, as a file-based approach can pose significant risks.
    
