@@ -161,4 +161,11 @@ const schema = {
   },
 };
 
+3. You can choose either Deterministic or Random , which may vary according to the requirement.
+4. If you have done all the settings till now we are ready to test the application.
 
+### Runtime of Application
+
+1. Start the Server
+
+![Project Logo](images/ServerStart.png)
