@@ -73,7 +73,7 @@ This directory contains the local setup of credentials required for Client-Side 
 
 2. Make sure your schema is in place with the Algorithm of your choice , for this demo I am using simple schema which is as following
 
-``code 
+```javascript 
 const schema = {
   bsonType: "object",
   encryptMetadata: {
