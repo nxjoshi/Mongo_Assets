@@ -43,6 +43,8 @@ Before you begin, ensure you have the following:
 
 ![Project Logo](images/CSFLE.jpg)
 
+Deterministic Encryption-Based (DEB) keys and Customer-Managed Keys (CMKs) in MongoDB work together to provide tailored data security. DEB keys are used for deterministic encryption, ensuring that the same plaintext always results in the same ciphertext, which facilitates exact value searches and indexing. CMKs, managed by the customer through a Key Management Service (KMS), offer broader control over encryption key lifecycle, including rotation and access. DEB keys can be a type of CMK, allowing organizations to use predictable encryption methods while maintaining control over key management. Essentially, CMKs encompass all types of encryption keys, including DEB keys, to ensure comprehensive and compliant data protection.
+
 
 
    - This directory contains the local setup of credentials required for Client-Side Field Level Encryption. Please note that this **local setup should not be used in a production 
