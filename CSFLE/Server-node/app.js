@@ -4,14 +4,14 @@ const mongoclient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 async function connectDB(dbname , collectionname){
-    const client = await mongoclient.connect('mongodb+srv://AdminCluster:admin@edge.n2msm.mongodb.net/?retryWrites=true&w=majority&appName=Edge');
+    const client = await mongoclient.connect('mongodb+srv://Connection String'); //Please make Changes here with your Connection String 
     const db= client.db(dbname);
     const collection = db.collection(collectionname);
     return collection;
 }
 app.post("/add", async (req, res) => {
  console.log(req.body);
- const collection = await connectDB('SecureDB', 'PII');
+ const collection = await connectDB('', '');   //Please make Changes here with your Database And Collection Name respectively
  const dbstatus = 'connected';
  console.log(collection);
  if (dbstatus === 'connected') {
