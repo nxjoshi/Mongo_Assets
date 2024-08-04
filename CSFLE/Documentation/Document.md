@@ -62,6 +62,8 @@ This directory contains the local setup of credentials required for Client-Side 
 4. Carefully copy the DEBKey from your terminal , which we can use it in the main server code to encrypt the specific field.
 5. As you will get the copy of your key , Please verify that on atlas you should see new database and collection related to keyvault which looks as following.
 
+![Project Logo](images/Atlas.jpg)
+
  
 
 ## Setting Up Server.js
