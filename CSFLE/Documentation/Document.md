@@ -39,7 +39,11 @@ Before you begin, ensure you have the following:
 
 ## Crypto-js
 
+**Customer Managed Keys (CMK)** are encryption keys that customers control within a cloud service provider's environment, offering a higher level of security and oversight over their data. Unlike default keys provided by the cloud provider, CMK allows organizations to generate, manage, and control their encryption keys, ensuring alignment with internal security policies and regulatory compliance. This level of control enhances data protection by enabling key rotation, access control, and audit logging, ultimately providing greater confidence in the security of sensitive information.
+
 ![Project Logo](images/CSFLE.jpg)
+
+
 
    - This directory contains the local setup of credentials required for Client-Side Field Level Encryption. Please note that this **local setup should not be used in a production 
      environment**, as a file-based approach can pose significant risks.
