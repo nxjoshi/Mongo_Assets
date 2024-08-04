@@ -57,7 +57,7 @@ This directory contains the local setup of credentials required for Client-Side 
 2. Open your terminal on Visual Studio code or outside of it.
 3. Look for **your_credential.js** and run node your_credential.js (**Please make sure you have pre configured your connection string inside it.**)
 
-![Project Logo](images/YourCred.jpg)
+![Project Logo](images/DEBK.jpg)
    
 
 
