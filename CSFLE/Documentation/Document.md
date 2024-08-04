@@ -71,4 +71,94 @@ This directory contains the local setup of credentials required for Client-Side 
  
 ![Project Logo](images/DEBKey.png)
 
+2. Make sure your schema is in place with the Algorithm of your choice , for this demo I am using simple schema which is as following
+
+``code 
+const schema = {
+  bsonType: "object",
+  encryptMetadata: {
+    keyId: [new Binary(Buffer.from(dataKey, "base64"), 4)],
+  },
+  properties: {
+    Full_Name: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    DOB: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    Address: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    Email: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    phone_number: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    Identification_number: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    cardnumber: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    Expirydate: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    JobTitle: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    employer: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    workaddress: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    expirydate: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+    cvv: {
+      encrypt: {
+        bsonType: "string",
+        algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Random",
+      },
+    },
+  },
+};
+
 
