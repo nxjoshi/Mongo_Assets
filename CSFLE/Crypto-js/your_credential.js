@@ -8,7 +8,7 @@ function getCredentials() {
   
   const credentials = {
     // Mongo Paths + URI
-    MONGODB_URI: "mongodb+srv://AdminCluster:admin@edge.n2msm.mongodb.net/?retryWrites=true&w=majority&appName=Edge",
+    MONGODB_URI: "",  ////Please make Changes here with your Connection String 
     
   };
   
