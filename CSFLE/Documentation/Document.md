@@ -58,6 +58,8 @@ This directory contains the local setup of credentials required for Client-Side 
 3. Look for **your_credential.js** and run node your_credential.js (**Please make sure you have pre configured your connection string inside it.**)
 
 ![Project Logo](images/DEBK.jpg)
+
+4. Carefully copy the DEBKey from your terminal , which we can use it in the main server code to encrypt the specific field.
    
 
 
