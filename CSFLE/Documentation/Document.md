@@ -175,3 +175,9 @@ const schema = {
 3. Copy pase this URL , http://localhost:3000/
 
 ![Project Logo](images/Demo.png)
+
+4. Please enter all the field , Most of the fields are in string format except Dates.
+5. Enter Submit
+6. Spesified fields according to the schema will get encrypted on the database as shwon below
+
+![Project Logo] (images/CSFLE_Database.png)
